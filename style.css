@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+
 *{
     box-sizing: border-box;
 }
@@ -7,7 +8,7 @@
 body{
     font-family: "Poppins",sans-serif;
     margin:0;
-    background-image: url(https://images.unsplash.com/photo-1514876246314-d9a231ea21db?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80);
+    background-image: url(https://images.unsplash.com/photo-1647849402208-01775e9c9fb3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1128&q=80);
     display:flex;
     flex-direction: column;
     justify-content: center;
@@ -20,7 +21,7 @@ body{
 
 h1{
     font-size: 4rem;
-    margin-top: -10rem;
+    margin-top: -4rem;
     color: aliceblue;
 }
 
@@ -28,6 +29,7 @@ h1{
     display: flex;
 }
 .big-text{
+    font-weight: bold;
     font-size: 6rem;
     color: aliceblue;
     line-height: 1;
@@ -41,4 +43,11 @@ h1{
 .countdown-el span{
     font-size: 2rem;
     color: aliceblue;
+}
+
+.copyright{
+    color: aliceblue;
+    margin-bottom: 1rem;
+    font-weight: bold;
+
 }
